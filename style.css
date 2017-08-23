@@ -1,0 +1,19 @@
+body{
+    height: 1000px;
+    width: 1450px;
+}
+p{
+    height: 700px;
+    width: 1450px;
+}
+img{
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+}
+#restore{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background: green;
+}

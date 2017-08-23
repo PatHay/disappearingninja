@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("img").click(function(){
+                    $(this).fadeOut(800);
+                })
+                $("#restore").click(function(){
+                    $("img").show(800);
+                })
+            })
+        </script>        
+    </head>
+    <body>
+        <p>
+    <img src="whatintarnation.jpg" alt="what in tarnation">
+    <img src="whatintarnation.jpg" alt="what in tarnation">
+    <img src="whatintarnation.jpg" alt="what in tarnation">
+    <img src="whatintarnation.jpg" alt="what in tarnation">
+    <img src="whatintarnation.jpg" alt="what in tarnation">
+    <img src="whatintarnation.jpg" alt="what in tarnation">
+    <img src="whatintarnation.jpg" alt="what in tarnation">
+    <img src="whatintarnation.jpg" alt="what in tarnation">
+        </p>
+    
+    <p1>    <button id="restore">Restore All Images</button></p1>
+    </body>
+</html>
